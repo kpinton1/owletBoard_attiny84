@@ -11,6 +11,6 @@ MyTiny.upload.maximum_size=6012
 
 MyTiny.build.mcu=attiny84
 MyTiny.build.f_cpu=8000000L
-MyTiny.build.board=MYTINY
-MyTiny.build.core=arduino:arduino
+MyTiny.build.board=OIT_OWLETBOARD
+MyTiny.build.core=tiny
 MyTiny.build.variant=tiny14
