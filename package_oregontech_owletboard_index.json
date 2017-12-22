@@ -1,0 +1,83 @@
+{
+   "packages":[
+      {
+         "name":"owletBoard",
+         "maintainer":"owletBoard",
+         "websiteURL":"http://oit.edu",
+         "email":"kevin.pintong@oit.edu",
+         "help":{
+            "online":"http://www.oit.edu/academics/degrees/computer-engineering-technology/open-source-projects"
+         },
+         "platforms":[
+         {
+          "name": "owlet Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Digistump",
+          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
+          "archiveFileName": "digistump-avr-1.6.7.zip",
+          "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
+          "size": "2491070",
+          "help": {
+            "online": "https://github.com/digistump/DigistumpArduino/issues"
+          },
+          "boards": [
+            {
+              "name": "owletBoard (ATTINY84)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "digistump",
+              "name": "micronucleus",
+              "version": "1.0"
+            }
+          ]
+        }
+         ],
+         "tools":[
+            {
+             "name": "micronucleus",
+             "version": "2.0a4",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
+                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
+                 "size": "51203"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "micronucleus-2.0a4-win.zip",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
+                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
+                 "size": "1712005"
+               },
+               {
+                 "host": "i686-linux-gnu",
+                 "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
+                 "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
+                 "size": "21909"
+               },
+               {
+                 "host": "x86_64-linux-gnu",
+                 "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
+                 "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
+                 "size": "22874"
+               }
+
+             ]
+           }
+          
+        ]
+      }
+   ]
+}
