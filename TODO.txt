@@ -1,0 +1,11 @@
+Known problems
+
+1. The included library files are bad. Have someone go through and check that at a minimum the following work:
+a. LED blink
+b. RGB example
+c. SoftSerial (Need to get rid of leonardo code and lower speed to 9600)
+d. SPI
+e. WS2811
+f. OneWire 
+g. Softpwm on LED
+h. Test the rest of them to see if compile mark any that don't work. 
