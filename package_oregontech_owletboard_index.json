@@ -16,7 +16,7 @@
           "category": "owletBoard",
           "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/owletBoard-avr-1.0.zip",
           "archiveFileName": "owletBoard-avr-1.0.zip",
-          "checksum": "SHA-256:555A03598B8743108037A483100BE9B128EC5E3C33643B59E0F27AFAE361E739",
+          "checksum": "SHA-256:316A7A6B19B7BA7B1B56AA9A97D44EE39A4FDBDFC25F2B5D78B94BBD4076D000",
           "size": "2524970",
           "help": {
             "online": "https://github.com/kevin-oit/owletBoard_attiny84/blob/master/README"
@@ -56,7 +56,7 @@
                  "host": "i686-mingw32",
                  "archiveFileName": "micronucleus-2.0a4-win.zip",
                  "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/micronucleus-2.0a4-win.zip",
-                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
+                 "checksum": "SHA-256:50301761DE681BD9547A6ECC29A2E6DC88776DFE68537736A4098A9064246111",
                  "size": "1712005"
                },
                {
