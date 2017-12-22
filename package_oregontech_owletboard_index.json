@@ -35,7 +35,7 @@
             {
               "packager": "owletBoard",
               "name": "micronucleus",
-              "version": "2.0a4"
+              "version": "0.1"
             }
           ]
         }
@@ -43,7 +43,7 @@
          "tools":[
             {
              "name": "micronucleus",
-             "version": "2.0a4",
+             "version": "0.1",
              "systems": [
                {
                  "host": "x86_64-apple-darwin",
@@ -54,9 +54,9 @@
                },
                {
                  "host": "i686-mingw32",
-                 "archiveFileName": "micronucleus-2.0a4-win.zip",
-                 "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/micronucleus-2.0a4-win.zip",
-                 "checksum": "SHA-256:50301761DE681BD9547A6ECC29A2E6DC88776DFE68537736A4098A9064246111",
+                 "archiveFileName": "micronucleus_for_owlboard_0.1-win.zip",
+                 "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/micronucleus_for_owlboard_0.1-win.zip",
+                 "checksum": "SHA-256:25DA5556CBF4B200E1BBF5222B14B9B0CD3DEDB15DCF0B3FDF13774527D4899B",
                  "size": "1712005"
                },
                {
