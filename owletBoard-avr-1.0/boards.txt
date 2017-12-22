@@ -1,0 +1,16 @@
+menu.cpu=Processor
+
+################################################################################
+
+MyTiny.name=owletBoard (ATtiny84, 3.3V, 8Mhz)
+
+MyTiny.upload.using=micronucleusprog
+MyTiny.upload.protocol=usb
+MyTiny.upload.tool=micronucleus
+MyTiny.upload.maximum_size=6012
+
+MyTiny.build.mcu=attiny84
+MyTiny.build.f_cpu=8000000L
+MyTiny.build.board=MYTINY
+MyTiny.build.core=arduino:arduino
+MyTiny.build.variant=tiny14
