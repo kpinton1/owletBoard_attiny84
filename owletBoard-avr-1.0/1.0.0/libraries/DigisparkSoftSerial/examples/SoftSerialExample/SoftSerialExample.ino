@@ -23,7 +23,7 @@
 #include <SoftSerial.h>     /* Allows Pin Change Interrupt Vector Sharing */
 #include <TinyPinChange.h>  /* Ne pas oublier d'inclure la librairie <TinyPinChange> qui est utilisee par la librairie <RcSeq> */
 
-SoftSerial mySerial(2, 3); // RX, TX
+SoftSerial mySerial(1, 0); // RX, TX
 
 void setup()  
 {
@@ -44,7 +44,6 @@ void setup()
 void loop() // run over and over
 {
   if (mySerial.available())
-    Serial.write(mySerial.read());
-  if (Serial.available())
+    Serial.write(mySerial.read());  if (Serial.available())
     mySerial.write(Serial.read());
 }
