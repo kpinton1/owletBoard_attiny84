@@ -57,8 +57,8 @@ recipe.size.regex.eeprom=^(?:\.eeprom)\s+([0-9]+).*
 tools.micronucleus.cmd.path={runtime.hardware.path}/../tools
 tools.micronucleus.upload.params.verbose=-verbose
 tools.micronucleus.upload.params.quiet=
-tools.micronucleus.upload.pattern="{cmd.path}/micronucleus" --timeout 60 "{build.path}/{build.project_name}.hex"
-#tools.micronucleus.upload.pattern="{cmd.path}/micronucleus" --run --timeout 60 "{build.path}/{build.project_name}.hex"
+tools.micronucleus.upload.pattern="{cmd.path}/micronucleus.exe" --timeout 60 "{build.path}/{build.project_name}.hex"
+#tools.micronucleus.upload.pattern="{cmd.path}/micronucleus.exe" --run --timeout 60 "{build.path}/{build.project_name}.hex"
 #tools.micronucleus.upload.pattern="{cmd.path}" -cdigispark --timeout 60 -Uflash:w:{build.path}/{build.project_name}.hex:i
 
 # USB Default Flags
