@@ -16,7 +16,7 @@ OwletBoard.build.core=arduino.arduino
 OwletBoard.build.variant=tiny14
 ################################################################################
 
-OIT.name=OIT-OregonShapedBoard (ATtiny84, 3.3V, 8Mhz)
+OregonShapedBoard.name=OIT-OregonShapedBoard (ATtiny84, 3.3V, 8Mhz)
 
 OregonShapedBoard.upload.using=micronucleusprog
 OregonShapedBoard.upload.protocol=usb
