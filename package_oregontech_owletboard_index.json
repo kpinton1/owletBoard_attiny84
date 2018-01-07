@@ -16,16 +16,14 @@
           "category": "owletBoard",
           "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/owletBoard-avr-1.0.zip",
           "archiveFileName": "owletBoard-avr-1.0.zip",
-          "checksum": "SHA-256:5D392FBC04FD6E37C3F609ACA7D4DFF88F3F2C7940AF64DEA98B273D2F496F20",
-          "size": "3971",
+          "checksum": "SHA-256:760475C382C8728D77CC4F7A1981424B4496C76E7C22ADDD653A16208D76F7FD",
+          "size": "3617",
           "help": {
             "online": "https://github.com/kevin-oit/owletBoard_attiny84/blob/master/README"
           },
-          "boards": [
-            {
-              "name": "owletBoard (ATTINY84)",
-              "name": "OIT-OregonShapeBoard (ATTINY84)"
-            }
+           "boards": [
+            {"name": "owletBoard (ATTINY84, 8 MHz, 3.3 V, USB)"},
+            {"name": "OIT-OregonShapeBoard (ATTINY84, 8 MHz, 3.3 V, USB)"}
           ],
           "toolsDependencies": [
             {
