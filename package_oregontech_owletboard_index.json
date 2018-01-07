@@ -16,8 +16,8 @@
           "category": "owletBoard",
           "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/owletBoard-avr-1.0.zip",
           "archiveFileName": "owletBoard-avr-1.0.zip",
-          "checksum": "SHA-256:2CEE7A329B978634EB236F0F8A1312F58E3892CFFF314A97E26AC4DA8B8EC9E7",
-          "size": "3619",
+          "checksum": "SHA-256:14A45087A4A67E3C580811067CB3BAC7E7E7A1FE6314D1BA37D0210BE34580CC",
+          "size": "3604",
           "help": {
             "online": "https://github.com/kevin-oit/owletBoard_attiny84/blob/master/README"
           },
