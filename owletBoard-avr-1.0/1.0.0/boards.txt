@@ -2,15 +2,29 @@ menu.cpu=Processor
 
 ################################################################################
 
-MyTiny.name=owletBoard (ATtiny84, 3.3V, 8Mhz)
+OwletBoard.name=owletBoard (ATtiny84, 3.3V, 8Mhz)
 
-MyTiny.upload.using=micronucleusprog
-MyTiny.upload.protocol=usb
-MyTiny.upload.tool=micronucleus
-MyTiny.upload.maximum_size=6012
+OwletBoard.upload.using=micronucleusprog
+OwletBoard.upload.protocol=usb
+OwletBoard.upload.tool=micronucleus
+OwletBoard.upload.maximum_size=6012
 
-MyTiny.build.mcu=attiny84
-MyTiny.build.f_cpu=8000000L
-MyTiny.build.board=OIT_OWLETBOARD
-MyTiny.build.core=tiny
-MyTiny.build.variant=tiny14
+OwletBoard.build.mcu=attiny84
+OwletBoard.build.f_cpu=8000000L
+OwletBoard.build.board=OIT_OWLETBOARD
+OwletBoard.build.core=arduino.arduino
+OwletBoard.build.variant=tiny14
+################################################################################
+
+OIT.name=OIT-OregonShapedBoard (ATtiny84, 3.3V, 8Mhz)
+
+OregonShapedBoard.upload.using=micronucleusprog
+OregonShapedBoard.upload.protocol=usb
+OregonShapedBoard.upload.tool=micronucleus
+OregonShapedBoard.upload.maximum_size=6012
+
+OregonShapedBoard.build.mcu=attiny84
+OregonShapedBoard.build.f_cpu=8000000L
+OregonShapedBoard.build.board=OIT-OregonShapedBoard
+OregonShapedBoard.build.core=arduino.arduino
+OregonShapedBoard.build.variant=tiny14
