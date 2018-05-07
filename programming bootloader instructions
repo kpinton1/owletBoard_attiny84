@@ -1,5 +1,8 @@
 Copy of firmware is in micronucleus-master.
 
+Use program.bat from firmware/releases folder, making sure avrdude and usbasp are installed first. (zadig and winavr)
+
+
 avrdude -c usbasp -p t84 -P usb -b 19200 -U flash:w:t84_default.hex 
 
 
