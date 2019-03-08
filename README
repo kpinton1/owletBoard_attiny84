@@ -1,1 +1,9 @@
 Readme
+
+Documentation including BOM and bootloader instructions, component arrangement, and Users guide are located in documentation. 
+
+PCB schematics and layout are in hardware(oregon) and hardware(owl)
+
+Latest design files are fab_v3.zip for both Owl and Oregon shapes. 
+
+We use Micronucleus bootloader which uses V-USB. License file included. 
