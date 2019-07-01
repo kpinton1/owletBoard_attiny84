@@ -1,7 +1,5 @@
 Readme
 
-http://oit.edu/cet/open-source-projects 
-
 Documentation including BOM and bootloader instructions, component arrangement, and Users guide are located in documentation. 
 
 PCB schematics and layout are in hardware(oregon) and hardware(owl)
