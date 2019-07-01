@@ -1,29 +1,29 @@
 {
    "packages":[
       {
-         "name":"owletBoard",
-         "maintainer":"owletBoard",
+         "name":"Oregon Tech boards",
+         "maintainer":"Oregon Tech CSE",
          "websiteURL":"http://oit.edu",
          "email":"kevin.pintong@oit.edu",
          "help":{
-            "online":"http://www.oit.edu/academics/degrees/computer-engineering-technology/open-source-projects"
+            "online":"http://www.oit.edu/academics/degrees/cet/open-source-projects"
          },
          "platforms":[
          {
-          "name": "owlet Boards",
+          "name": "Oregon Tech boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "owletBoard",
           "url": "https://github.com/kevin-oit/owletBoard_attiny84/raw/master/owletBoard-avr-1.0.zip",
           "archiveFileName": "owletBoard-avr-1.0.zip",
-          "checksum": "SHA-256:14A45087A4A67E3C580811067CB3BAC7E7E7A1FE6314D1BA37D0210BE34580CC",
+          "checksum": "SHA-256:81D5B3B7CA957DEEDE8F8A55051CBD501367A56D2226E0FB0C18D3F0361FAFFE",
           "size": "3604",
           "help": {
             "online": "https://github.com/kevin-oit/owletBoard_attiny84/blob/master/README"
           },
            "boards": [
-            {"name": "owletBoard (ATTINY84, 8 MHz, 3.3 V, USB)"},
-            {"name": "OIT-OregonShapeBoard (ATTINY84, 8 MHz, 3.3 V, USB)"}
+            {"name": "Oregon Tech- Owlboard (ATTINY84, 8 MHz, 3.3 V, USB)"},
+            {"name": "Oregon Tech- Oregonboard (ATTINY84, 8 MHz, 3.3 V, USB)"}
           ],
           "toolsDependencies": [
             {
