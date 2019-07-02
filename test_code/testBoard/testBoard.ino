@@ -8,7 +8,9 @@
   Test disposition:
   1) The board should blink the portland metro or right owl eye at a rate of 1 second. 
   2) The RGB LED should cycle through Red, Blue, and Green
-  3) The button when pressed 
+  3) When S1 is pressed, all lights should turn off except the left eye or right power indicator. 
+  4) When S2 is pressed, all lights should turn on. 
+  
   This example code is in the public domain.
 
 */
