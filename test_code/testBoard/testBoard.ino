@@ -14,13 +14,22 @@
   This example code is in the public domain.
 
 */
+
 #define LED_BUILTIN 0
-#define RED_LED 8 
-#define BLUE_LED 7
-#define GREEN_LED 6
 #define BTN1 1
 #define BTN2 2
 
+#ifdef v5 
+#define RED_LED 8 
+#define BLUE_LED 7
+#define GREEN_LED 6
+#endif 
+
+#ifndef v5
+#define RED_LED 3
+#define BLUE_LED 4
+#define GREEN_LED 5
+#endif
 int btn1State = 0;
 int btn2State = 0;
 // the setup function runs once when you press reset or power the board
