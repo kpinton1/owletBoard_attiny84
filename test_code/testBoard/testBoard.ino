@@ -18,14 +18,14 @@
 #define LED_BUILTIN 0
 #define BTN1 1
 #define BTN2 2
-
-#ifdef v5 
+#define v7
+#ifdef v7
 #define RED_LED 8 
 #define BLUE_LED 7
 #define GREEN_LED 6
 #endif 
 
-#ifndef v5
+#ifndef v7
 #define RED_LED 3
 #define BLUE_LED 4
 #define GREEN_LED 5
@@ -56,30 +56,30 @@ void loop() {
   digitalWrite(GREEN_LED, LOW);
   digitalWrite(BLUE_LED, HIGH);
   digitalWrite(RED_LED, HIGH);
-  delay(500);
+  delay(1000);
   digitalWrite(GREEN_LED, HIGH);
   digitalWrite(BLUE_LED, LOW);
   digitalWrite(RED_LED, HIGH);
-  delay(500);
+  delay(1000);
   digitalWrite(GREEN_LED, HIGH);
   digitalWrite(BLUE_LED, HIGH);
   digitalWrite(RED_LED, LOW);
-  delay(500);
+  delay(1000);
   btn1State = digitalRead(BTN1);
   btn2State = digitalRead(BTN2);
 
-  if(btn1State == HIGH){            //Test S1- If pressed, should turn off everything for 3 seconds
+  if(btn1State == LOW){            //Test S1- If pressed, should turn off everything for 3 seconds
     digitalWrite(GREEN_LED, HIGH);
     digitalWrite(BLUE_LED, HIGH);
     digitalWrite(RED_LED, HIGH);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(3000);
+    delay(5000);
   }
-  if(btn2State == HIGH){            //Test S2- If pressed, should turn on everything for 3 seconds
+  if(btn2State == LOW){            //Test S2- If pressed, should turn on everything for 3 seconds
     digitalWrite(GREEN_LED, LOW);
     digitalWrite(BLUE_LED, LOW);
     digitalWrite(RED_LED, LOW);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(3000);
+    delay(5000);
   }
 }
